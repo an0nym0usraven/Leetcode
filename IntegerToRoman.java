@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class IntegerToRoman {
     public static String intToRoman(int num) {
         LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
         map.put(1000,"M");
