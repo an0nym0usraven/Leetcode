@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Kapreker
+class Kaprekar
 {
     static boolean check(int n)
     {
@@ -11,6 +11,7 @@ class Kapreker
         int sq = n*n;
         int count = 0;
 
+        //count number of digits in number square
         while(sq!=0)
         {
             sq = sq/10;
@@ -38,6 +39,7 @@ class Kapreker
         
         return false;
     }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
