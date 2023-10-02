@@ -25,21 +25,7 @@ class Solution {
                 }
             }
         }
-        
-        
-        if(movesA == movesB)
-        {
-            return false;
-        }
-        if(movesA > movesB)
-        {
-            return true;
-        }
-        else if(movesA < movesB)
-        {
-            return false;
-        }
 
-        return false;
+        return (movesA - movesB >= 1);
     }
 }
