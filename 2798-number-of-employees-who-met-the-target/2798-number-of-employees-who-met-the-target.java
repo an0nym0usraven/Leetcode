@@ -1,9 +1,9 @@
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int count = 0;
-        for(int hour: hours)
+        for(int i=0; i<hours.length; i++)
         {
-            if(hour >= target)
+            if(hours[i] >= target)
             {
                 count++;
             }
